@@ -1,0 +1,21 @@
+dispute_id,description,predicted_category,confidence,explanation,amount,created_at,txn_type,channel
+D001,I got charged twice for the same UPI payment,DUPLICATE_CHARGE,0.8800124,Keywords found: twice/double/duplicate,999,2025-08-01 10:23:11,UPI,Mobile
+D002,My NEFT failed but money is not refunded,FAILED_TRANSACTION,0.7947074,Keywords found: failed/error/deducted,1250,2025-08-01 11:55:09,NEFT,Web
+D003,Transaction shows failed but money was debited,FAILED_TRANSACTION,0.8904283,Keywords found: failed/error/deducted,500,2025-08-01 12:10:43,CARD,POS
+D004,I did not make this payment. This is fraud.,FRAUD,0.77871555,Keywords found: unrecognized/unauthorized/did not make,1200,2025-08-01 13:30:01,CARD,Mobile
+D005,Still waiting for refund after canceled transaction,REFUND_PENDING,0.8731919,Keywords found: refund/waiting,750,2025-08-01 14:02:18,CARD,Web
+D006,Duplicate charge for the same merchant within minutes,DUPLICATE_CHARGE,0.8277775,Keywords found: twice/double/duplicate,1499,2025-08-01 15:11:05,CARD,Mobile
+D007,UPI transfer failed but account is debited,FAILED_TRANSACTION,0.83471286,Keywords found: failed/error/deducted,299,2025-08-01 16:45:30,UPI,Mobile
+D008,NEFT credited to wrong beneficiary per my statement,OTHERS,0.6989311,No specific keywords matched,5400,2025-08-01 17:20:12,NEFT,Web
+D009,Chargeback requested as I don't recognize this card txn,OTHERS,0.6835957,No specific keywords matched,1899,2025-08-02 09:12:44,CARD,Web
+D010,Refund pending for a week after failed POS swipe,FAILED_TRANSACTION,0.7336229,Keywords found: failed/error/deducted,650,2025-08-02 10:05:10,CARD,POS
+D011,Got two UPI debit messages for one QR scan,OTHERS,0.6660967,No specific keywords matched,220,2025-08-02 10:25:18,UPI,QR
+D012,"Payment stuck in pending, not sure if merchant got it",REFUND_PENDING,0.7269482,Keywords found: refund/waiting,430,2025-08-02 11:01:56,UPI,Mobile
+D013,EMI card was charged twice this month,DUPLICATE_CHARGE,0.7724753,Keywords found: twice/double/duplicate,2100,2025-08-02 12:44:39,CARD,Web
+D014,My NEFT is showing processed but beneficiary says not received,OTHERS,0.706602,No specific keywords matched,9800,2025-08-02 13:30:21,NEFT,Web
+D015,Got debited after payment failed on gateway,FAILED_TRANSACTION,0.84783244,Keywords found: failed/error/deducted,399,2025-08-02 14:02:07,CARD,Web
+D016,This transaction looks suspicious. I didn't authorize it,FRAUD,0.8076092,Keywords found: unrecognized/unauthorized/did not make,5200,2025-08-03 09:31:45,CARD,Mobile
+D017,Refund for canceled order not received,REFUND_PENDING,0.841032,Keywords found: refund/waiting,875,2025-08-03 10:42:11,UPI,Mobile
+D018,"Duplicate UPI transfer to same VPA, minutes apart",DUPLICATE_CHARGE,0.6742497,Keywords found: twice/double/duplicate,1299,2025-08-03 11:15:00,UPI,Mobile
+D019,NEFT failed but amount not reversed yet,FAILED_TRANSACTION,0.7619252,Keywords found: failed/error/deducted,25000,2025-08-03 11:55:27,NEFT,Web
+D020,Card charged twice at petrol pump,DUPLICATE_CHARGE,0.7301334,Keywords found: twice/double/duplicate,1800,2025-08-03 12:20:49,CARD,POS

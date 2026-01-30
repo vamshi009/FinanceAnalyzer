@@ -1,0 +1,3 @@
+transaction_id_1,transaction_id_2,customer_id,account_number,amount,time_diff_minutes,merchant_1,merchant_2,description_1,description_2
+TXN_00000410,TXN_00000092,CUST_000076,ACC_5661907,1971.98,2.0,Pharmacy,Pharmacy,FEE - Grocery Store,FEE - Grocery Store
+TXN_00000146,TXN_00000420,CUST_000143,ACC_7089806,484.05,2.0,ATM Withdrawal,ATM Withdrawal,PAYMENT - Electric Company,PAYMENT - Electric Company
