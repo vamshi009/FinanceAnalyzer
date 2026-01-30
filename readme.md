@@ -21,8 +21,8 @@ Tasks 4:
 
 - Task 6:
 
-- Anomoly detection
-    - The Basic Idea is that given a dataset, 
+    - Anomoly detection
+        - The Basic Idea is that given a dataset, 
         come up with user modelling which includes user level average money spent and his history / pattern
-    - For this experiment we have used his money alone to detect if there are any anomalies
+        - For this experiment we have used his money alone to detect if there are any anomalies
 
